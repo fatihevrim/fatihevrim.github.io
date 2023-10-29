@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="merkür/css/hesaplama.CSS" rel="stylesheet"/>
+    <title>NSGARAGE</title>
+</head>
+<body>
+<a href="araclar.html"><img id="logo" src="nsgarage.png"></a>
+<div id="div1">  
+    <h1 id="fiyatlandirma">FİYATLANDIRMA</h1>
+</div>
+<h1 id="ucret">Günlük Ücret</h1>
+<h2 id="ucret1">500</h2>
+<h3 id="sure">Nekadar Süre Kiralamak İstiyorsunuz?</h3>
+<input id=userNumber type=number/>
+<h2 id="fiyat">FİYAT</h2>
+<button id=calculationButton>Hesapla</button>
+<a href=""><button id=button>Kirala</button></a>
+<div id=resultArea></div>
+</body>
+</html>
+<script>
+const $calculationButton = document.getElementById("calculationButton");
+
+const $userNumber = document.getElementById("userNumber");
+
+const $resultArea = document.getElementById("resultArea");
+
+const constantNumber = 500;
+
+$calculationButton.addEventListener("click", function() {
+
+    let inputValue = $userNumber.value;
+
+    if(isNaN(inputValue)) {
+        $resultArea.innerHTML = "Bir sayı değeri girmelisiniz!";
+        $userNumber.value = "";
+        return; 
+    }
+    inputValue = Number(inputValue);
+    const result = constantNumber * inputValue;
+    $resultArea.innerHTML = result;
+    
+});
+</script>

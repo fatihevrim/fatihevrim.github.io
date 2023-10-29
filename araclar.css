@@ -1,0 +1,471 @@
+ul {list-style: none;}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+#nsgarage{
+  position: absolute;
+  left: 50%;
+}
+#katagori{
+  font-size: 200%;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 24%;
+  left: 2%;
+}
+#hr{
+  width: 15%;
+  position: absolute;
+  top: 32%;
+  left: 2%;
+}
+#hr1{
+  width: 15%;
+  position: absolute;
+  top: 58%;
+  left: 2%;
+}
+#hr2{
+  width: 15%;
+  position: absolute;
+  top: 32%;
+  left: 2%;
+}
+#AUDİ{
+  position: absolute;
+  top: 40%;
+  left: 2%;
+}
+#auditext{
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 38%;
+  left: 3.5%;
+}
+#HYUNDAİ{
+  position: absolute;
+  top: 50%;
+  left: 2%;
+}
+#hyundaitext{
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 48%;
+  left: 3.5%;
+}
+#FİAT{
+  position: absolute;
+  top: 45%;
+  left: 2%;
+}
+#fiattext{
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 43%;
+  left: 3.5%;
+}
+
+#div1{
+  box-shadow: 2px 2px 80px rgb(54, 54, 54);
+  position: absolute;
+  top: 28%;
+  left: 25%;
+  border-radius: 50px;
+  padding-left: 25%;
+  padding-top: 30%;
+}
+#audi{
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    left: 28%;
+}
+#q3text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    position: absolute;
+    top: 53%;
+    left: 35%;
+}
+#q3{
+  background-color: transparent;
+    font-size: 100%;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 80%;
+    left: 34.5%;
+}
+#benzin{
+    width: 3%;
+    position: absolute;
+    top: 65%;
+    left: 30%;
+  }
+  #dizel{
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    position: absolute;
+    top: 65%;
+    left: 34%;
+  }
+  #vites{
+    width: 3%;
+    position: absolute;
+    top: 65%;
+    left: 39%;
+  }
+  #otomatik{
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    position: absolute;
+    top: 65%;
+    left: 43%;
+  }
+  #fiyat1{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 73%;
+    left: 37%;
+  }
+
+  #div2{
+    box-shadow: 2px 2px 80px rgb(54, 54, 54);
+    position: absolute;
+    top: 28%;
+    left: 65%;
+    border-radius: 50px;
+    padding-left: 25%;
+    padding-top: 30%;
+  }
+  #audi1{
+      width: 20%;
+      position: absolute;
+      top: 30%;
+      left: 67.5%;
+  }
+  #a3text{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 200%;
+      position: absolute;
+      top: 53%;
+      left: 75%;
+  }
+  #a3{
+    background-color: transparent;
+      font-size: 100%;
+      border-radius: 50px;
+      width: 150px;
+      height: 50px;
+      position: absolute;
+      top: 80%;
+      left: 74.5%;
+  }
+  #benzin1{
+      width: 3%;
+      position: absolute;
+      top: 65%;
+      left: 80%;
+    }
+    #dizel1{
+      color: #333;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 130%;
+      position: absolute;
+      top: 65%;
+      left: 84%;
+    }
+    #vites1{
+      width: 3%;
+      position: absolute;
+      top: 65%;
+      left: 69%;
+    }
+    #otomatik1{
+      color: #333;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 130%;
+      position: absolute;
+      top: 65%;
+      left: 73%;
+    }
+    #fiyat2{
+      font-family: Arial, Helvetica, sans-serif;
+      position: absolute;
+      top: 73%;
+      left: 76.5%;
+    }
+
+
+    #div3{
+      box-shadow: 2px 2px 80px rgb(54, 54, 54);
+      position: absolute;
+      top: 100%;
+      left: 65%;
+      border-radius: 50px;
+      padding-left: 25%;
+      padding-top: 30%;
+    }
+    #fiat1{
+        width: 20%;
+        position: absolute;
+        top: 102%;
+        left: 67.5%;
+    }
+    #egea1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 200%;
+        position: absolute;
+        top: 125%;
+        left: 72%;
+    }
+    #egeabuton1{
+      background-color: transparent;
+        font-size: 100%;
+        border-radius: 50px;
+        width: 150px;
+        height: 50px;
+        position: absolute;
+        top: 155%;
+        left: 74.5%;
+    }
+    #benzin2{
+        width: 3%;
+        position: absolute;
+        top: 137%;
+        left: 80%;
+      }
+      #dizel2{
+        color: #333;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 130%;
+        position: absolute;
+        top: 137%;
+        left: 84%;
+      }
+      #vites2{
+        width: 3%;
+        position: absolute;
+        top: 137%;
+        left: 69%;
+      }
+      #otomatik2{
+        color: #333;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 130%;
+        position: absolute;
+        top: 137%;
+        left: 73%;
+      }
+      #fiyat3{
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 148%;
+        left: 76.5%;
+      }
+
+      #div4{
+        box-shadow: 2px 2px 80px rgb(54, 54, 54);
+        position: absolute;
+        top: 100%;
+        left: 25%;
+        border-radius: 50px;
+        padding-left: 25%;
+        padding-top: 30%;
+      }
+      #fiat2{
+          width: 20%;
+          position: absolute;
+          top: 102%;
+          left: 28%;
+      }
+      #egea2{
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 200%;
+          position: absolute;
+          top: 125%;
+          left: 31.5%;
+      }
+      #egeabuton2{
+        background-color: transparent;
+          font-size: 100%;
+          border-radius: 50px;
+          width: 150px;
+          height: 50px;
+          position: absolute;
+          top: 155%;
+          left: 34%;
+      }
+      #benzin3{
+          width: 3%;
+          position: absolute;
+          top: 137%;
+          left: 30%;
+        }
+        #dizel3{
+          color: #333;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 130%;
+          position: absolute;
+          top: 137%;
+          left: 34%;
+        }
+        #vites3{
+          width: 3%;
+          position: absolute;
+          top: 137%;
+          left: 39%;
+        }
+        #otomatik3{
+          color: #333;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 130%;
+          position: absolute;
+          top: 137%;
+          left: 43%;
+        }
+        #fiyat4{
+          font-family: Arial, Helvetica, sans-serif;
+          position: absolute;
+          top: 148%;
+          left: 36.5%;
+        }
+
+
+        #div5{
+          box-shadow: 2px 2px 80px rgb(54, 54, 54);
+          position: absolute;
+          top: 170%;
+          left: 25%;
+          border-radius: 50px;
+          padding-left: 25%;
+          padding-top: 30%;
+        }
+        #hyundai1{
+            width: 24%;
+            position: absolute;
+            top: 172%;
+            left: 25.5%;
+        }
+        #hyundai{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 200%;
+            position: absolute;
+            top: 192%;
+            left: 31.5%;
+        }
+        #hyundaiButton1{
+          background-color: transparent;
+            font-size: 100%;
+            border-radius: 50px;
+            width: 150px;
+            height: 50px;
+            position: absolute;
+            top: 225%;
+            left: 33.5%;
+        }
+        #benzin4{
+            width: 3%;
+            position: absolute;
+            top: 205%;
+            left: 30%;
+          }
+          #dizel4{
+            color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 130%;
+            position: absolute;
+            top: 205%;
+            left: 34%;
+          }
+          #vites4{
+            width: 3%;
+            position: absolute;
+            top: 205%;
+            left: 39%;
+          }
+          #otomatik4{
+            color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 130%;
+            position: absolute;
+            top: 205%;
+            left: 43%;
+          }
+          #fiyat5{
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+            top: 218%;
+            left: 35.6%;
+          }
+
+          #div6{
+            box-shadow: 2px 2px 80px rgb(54, 54, 54);
+            position: absolute;
+            top: 170%;
+            left: 65%;
+            border-radius: 50px;
+            padding-left: 25%;
+            padding-top: 30%;
+          }
+          #hyundai2{
+              width: 24%;
+              position: absolute;
+              top: 172%;
+              left: 65.5%;
+          }
+          #hyundai3{
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 200%;
+              position: absolute;
+              top: 192%;
+              left: 73%;
+          }
+          #hyundaiButton2{
+              background-color: transparent;
+              font-size: 100%;
+              border-radius: 50px;
+              width: 150px;
+              height: 50px;
+              position: absolute;
+              top: 225%;
+              left: 74.5%;
+          }
+          #benzin5{
+              width: 3%;
+              position: absolute;
+              top: 205%;
+              left: 80%;
+            }
+            #dizel5{
+              color: #333;
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 130%;
+              position: absolute;
+              top: 205%;
+              left: 84%;
+            }
+            #vites5{
+              width: 3%;
+              position: absolute;
+              top: 205%;
+              left: 69%;
+            }
+            #otomatik5{
+              color: #333;
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 130%;
+              position: absolute;
+              top: 205%;
+              left: 73%;
+            }
+            #fiyat6{
+              font-family: Arial, Helvetica, sans-serif;
+              position: absolute;
+              top: 218%;
+              left: 77%;
+            }

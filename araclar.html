@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<link href="araclar.css" rel="stylesheet"/>
+<title>NSGARAGE</title>
+<html lang="tr">
+  <a href="http://127.0.0.1:5500/merk%C3%BCr/index.html"><img id="nsgarage" src="nsgarage.png"></a>
+  <h3 id="katagori">Kategorileri Filtrele</h3>
+  <hr id="hr">
+  <hr id="hr1">
+  <hr id="hr2">
+  <input type="checkbox" id="AUDİ" onclick="filterItems()"> <h3 id="auditext">AUDİ</h3>    
+  <input type="checkbox" id="FİAT" onclick="filterItems()"> <h3 id="fiattext">FİAT</h3> 
+  <input type="checkbox" id="HYUNDAİ" onclick="filterItems()"> <h3 id="hyundaitext">HYUNDAİ</h3> 
+
+  <ul id="item-list">
+      <li class="AUDİ">
+            <div id="div1"></div>
+                <img id="audi" src="https://rentgoproductionstorage.blob.core.windows.net/cmsimages/100000001/59b5c093-7239-4c01-a9c7-c82bfb090b60">
+                <h2 id="q3text">Audi Q3</h2>
+                <button id="q3"><a href="hesaplama2.html">Satın Al</a></button>
+                <img id="benzin" src="https://w7.pngwing.com/pngs/174/945/png-transparent-fuel-dispenser-gasoline-filling-station-computer-icons-pump-lpg-text-rectangle-logo.png">
+                <p id="dizel">Benzin</p>
+                <img id="vites" src="https://media.istockphoto.com/id/1485263562/tr/vekt%C3%B6r/automatic-transmission-sign-icon-auto-car-control-symbol-gray-circle-button-with-icon-vector.jpg?s=612x612&w=0&k=20&c=VgDbKSW4Bg4UxZPALZ0rnqpopANz7hwQljHLFSOmnXQ=">
+                <p id="otomatik">Otomatik</p>
+                <h3 id="fiyat1">FİYAT..</h3>
+            </div>
+      </li>
+
+        <li class="AUDİ">
+            <div id="div2"></div>
+                <img id="audi1" src="https://rentgoproductionstorage.blob.core.windows.net/cmsimages/100000001/14e8015e-223e-457c-b000-a50a1a116d09">
+                <h2 id="a3text">Audi A3</h2>
+                <button id="a3"><a href="hesaplama3.html">Satın Al</a></button>
+                <img id="benzin1" src="https://w7.pngwing.com/pngs/174/945/png-transparent-fuel-dispenser-gasoline-filling-station-computer-icons-pump-lpg-text-rectangle-logo.png">
+                <p id="dizel1">Benzin</p>
+                <img id="vites1" src="https://media.istockphoto.com/id/1485263562/tr/vekt%C3%B6r/automatic-transmission-sign-icon-auto-car-control-symbol-gray-circle-button-with-icon-vector.jpg?s=612x612&w=0&k=20&c=VgDbKSW4Bg4UxZPALZ0rnqpopANz7hwQljHLFSOmnXQ=">
+                <p id="otomatik1">Otomatik</p>
+                <h3 id="fiyat2">FİYAT..</h3>
+            </div>
+      </li>
+
+      <li class="FİAT">
+            <div id="div3"></div>
+                <img id="fiat1" src="https://rentgoproductionstorage.blob.core.windows.net/cmsimages/100000001/9028511e-6984-41e3-a964-897e2f0e29ff">
+                <h2 id="egea1">Fiat Egea AT 1.6</h2>
+                <button id="egeabuton1"><a href="hesaplama5.html">Satın Al</a></button>
+                <img id="benzin2" src="https://w7.pngwing.com/pngs/174/945/png-transparent-fuel-dispenser-gasoline-filling-station-computer-icons-pump-lpg-text-rectangle-logo.png">
+                <p id="dizel2">Benzin</p>
+                <img id="vites2" src="https://media.istockphoto.com/id/1485263562/tr/vekt%C3%B6r/automatic-transmission-sign-icon-auto-car-control-symbol-gray-circle-button-with-icon-vector.jpg?s=612x612&w=0&k=20&c=VgDbKSW4Bg4UxZPALZ0rnqpopANz7hwQljHLFSOmnXQ=">
+                <p id="otomatik2">Otomatik</p>
+                <h3 id="fiyat3">FİYAT..</h3>
+            </div>
+      </li>
+
+    <li class="FİAT">
+        <div id="div4"></div>
+            <img id="fiat2" src="https://rentgoproductionstorage.blob.core.windows.net/cmsimages/100000001/9028511e-6984-41e3-a964-897e2f0e29ff">
+            <h2 id="egea2">Fiat Egea 1.3</h2>
+            <button id="egeabuton2"><a href="hesaplama4.html">Satın Al</a></button>
+            <img id="benzin3" src="https://w7.pngwing.com/pngs/174/945/png-transparent-fuel-dispenser-gasoline-filling-station-computer-icons-pump-lpg-text-rectangle-logo.png">
+            <p id="dizel3">Dizel</p>
+            <img id="vites3" src="https://media.istockphoto.com/id/1485263562/tr/vekt%C3%B6r/automatic-transmission-sign-icon-auto-car-control-symbol-gray-circle-button-with-icon-vector.jpg?s=612x612&w=0&k=20&c=VgDbKSW4Bg4UxZPALZ0rnqpopANz7hwQljHLFSOmnXQ=">
+            <p id="otomatik3">Manuel</p>
+            <h3 id="fiyat4">FİYAT..</h3>
+        </div>
+    </li>
+
+
+    <li class="HYUNDAİ">
+        <div id="div5"></div>
+            <img id="hyundai1" src="https://www.avis.com.tr/Avis/media/Avis/Cars/f-hyundai-bayon.png">
+            <h2 id="hyundai">Hyundai Bayon</h2>
+            <button id="hyundaiButton1"><a href="hesaplama6.html">Satın Al</a></button>
+            <img id="benzin4" src="https://w7.pngwing.com/pngs/174/945/png-transparent-fuel-dispenser-gasoline-filling-station-computer-icons-pump-lpg-text-rectangle-logo.png">
+            <p id="dizel4">Benzin</p>
+            <img id="vites4" src="https://media.istockphoto.com/id/1485263562/tr/vekt%C3%B6r/automatic-transmission-sign-icon-auto-car-control-symbol-gray-circle-button-with-icon-vector.jpg?s=612x612&w=0&k=20&c=VgDbKSW4Bg4UxZPALZ0rnqpopANz7hwQljHLFSOmnXQ=">
+            <p id="otomatik4">Otomatik</p>
+            <h3 id="fiyat5">FİYAT..</h3>
+        </div>
+    </li>
+
+    <li class="HYUNDAİ">
+        <div id="div6"></div>
+            <img id="hyundai2" src="https://www.avis.com.tr/Avis/media/Avis/Cars/f-hyundai-i20.png">
+            <h2 id="hyundai3">Hyundai i20</h2>
+            <button id="hyundaiButton2"><a href="hesaplama7.html">Satın Al</a></button>
+            <img id="benzin5" src="https://w7.pngwing.com/pngs/174/945/png-transparent-fuel-dispenser-gasoline-filling-station-computer-icons-pump-lpg-text-rectangle-logo.png">
+            <p id="dizel5">Benzin</p>
+            <img id="vites5" src="https://media.istockphoto.com/id/1485263562/tr/vekt%C3%B6r/automatic-transmission-sign-icon-auto-car-control-symbol-gray-circle-button-with-icon-vector.jpg?s=612x612&w=0&k=20&c=VgDbKSW4Bg4UxZPALZ0rnqpopANz7hwQljHLFSOmnXQ=">
+            <p id="otomatik5">Otomatik</p>
+            <h3 id="fiyat6">FİYAT..</h3>
+        </div>
+    </li>
+  </ul>
+
+  <script src="script.js"></script>
+ 
+</body>
+</html>
